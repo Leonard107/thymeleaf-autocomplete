@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Autocomplete</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+
+<div class="container">
+    <!-- <h2 class="mt-5">Your place of birth: <strong th:text="${birthplace.state.label}" th:if="${birthplace.state != null}"></strong></h2> -->
+	<h2 class="mt-5">Your place of birth: <strong th:text="${deputado.text}" th:if="${deputado.text != null}"></strong></h2>
+    <a th:href="@{/deputados}" class="btn btn-primary">Go back</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.frontbackend.java</groupId>
+    <artifactId>java</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>java-convertions</module>
+        <module>java-io</module>
+        <module>java-io-resources</module>
+        <module>java-io-working-directory</module>
+        <module>java-util</module>
+        <module>cryptography</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <junit.version>4.12</junit.version>
+        <guava.version>28.0-jre</guava.version>
+        <assertj.version>3.9.1</assertj.version>
+        <commons.io.version>2.6</commons.io.version>
+        <lombok.version>1.18.2</lombok.version>
+        <opencsv.version>4.1</opencsv.version>
+        <commons-collections4.version>4.2</commons-collections4.version>
+    </properties>
+
+</project>

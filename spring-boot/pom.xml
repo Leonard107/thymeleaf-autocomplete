@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.frontbackend.springboot</groupId>
+    <artifactId>spring-boot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>hello-world</module>
+        <module>custom-banner</module>
+        <module>build-war</module>
+        <module>read-resources</module>
+        <module>upload-file-into-filesystem</module>
+        <module>upload-file-to-postgresql</module>
+        <module>angular11-spring-boot2-postgresql</module>
+        <module>angular11-spring-boot2-mysql</module>
+        <module>spring-boot2-junit5-mockito</module>
+        <module>angular11-spring-boot2-download-file</module>
+        <module>angular11-spring-boot2-pdf-viewer</module>
+        <module>angular11-spring-boot2-upload-file</module>
+        <module>angular11-spring-boot2-upload-file-with-progress</module>
+        <module>upload-file-to-redis</module>
+        <module>getting-started-with-redis</module>
+        <module>angular11-spring-boot2-download-pdf-excel-csv</module>
+        <module>getting-started-with-mongodb</module>
+        <module>angular11-spring-boot2-mongodb-datatable</module>
+        <module>react-drag-and-drop-taskboard-spring-boot2-postgresql</module>
+        <module>getting-started</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+</project>
